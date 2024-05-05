@@ -34,6 +34,8 @@ for (let i = 1; 1 <= 100; i++)
 
             div.append('FizzBuzz');
             grid.append(div);
+
+            div.classList.add('box');
         }
     
         /* con && le due condizioni di i vengono connesse
@@ -50,6 +52,8 @@ for (let i = 1; 1 <= 100; i++)
 
             div.append('Buzz');
             grid.append(div);
+
+            div.classList.add('box');
         }
 
         /* qui andiamo a dare ad i un valore
@@ -66,6 +70,8 @@ for (let i = 1; 1 <= 100; i++)
 
             div.append('Fizz');
             grid.append(div);
+
+            div.classList.add('box');
         }
 
         /* qui andiamo a dare ad i un valore
@@ -81,6 +87,8 @@ for (let i = 1; 1 <= 100; i++)
 
             div.append(i);
             grid.append(div);
+
+            div.classList.add('box');
         }
 
         /* se tutte le condizioni sopra non vengono

@@ -4,24 +4,45 @@
 
 body {background-color: #083B4C;}
 
-/* contenitore centrato */ 
-.container {margin: 0 auto; width: 8ovh;}
+/* contenitore centrato e distanziato */ 
+.container {margin: 0 auto; width: 70vw; padding-bottom: 3rem;}
 
 .container h1 
 {
     text-align: center;
     color: white;
     font-size: 5rem;
-    padding-top: 2rem;
+    padding: 3rem 0;
 }
 
 
-/* così impostiamo i raggruppamenti */
+/* così impostiamo i raggruppamenti 
+ e li distanziamo con gap */
 
 .griglia {
     display: flex;
     flex-wrap: wrap;
+    gap: 16px;
 }
+
+/* creiamo una forma alla box */
+
+.box {
+    display: grid;
+    place-items: center;
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+/* CLASSI DI LAYOUT */
+
+.blue {background-color: blue;}
+.yellow {background-color: yellow;}
+.aqua {background-color: aqua;}
+.red {background-color: red;}
+
+
 
 
 
