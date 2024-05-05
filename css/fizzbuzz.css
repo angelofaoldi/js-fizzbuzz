@@ -16,5 +16,14 @@ body {background-color: #083B4C;}
 }
 
 
+/* così impostiamo i raggruppamenti */
+
+.griglia {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 
 
