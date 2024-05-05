@@ -1,1 +1,20 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* impostiamo il layout con CSS */
+
+body {background-color: #083B4C;}
+
+/* contenitore centrato */ 
+.container {margin: 0 auto;}
+
+.container h1 
+{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+
+
+

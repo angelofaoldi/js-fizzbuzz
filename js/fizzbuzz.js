@@ -10,7 +10,7 @@
 
 for (let i = 1; 1 <= 100; i++)
 
-    // questo ciclo dovrò avere delle condizioni
+    // questo ciclo dovrà avere delle condizioni
     // impostiamo la struttura if {} else {}
 
     { 
@@ -29,17 +29,17 @@ for (let i = 1; 1 <= 100; i++)
         e questo valore verrà poi sovrascritto da Buzz */
 
         else if ((i % 3) === 0)
-        {console.log(?Fizz);}
+        {console.log('Fizz');}
 
         /* qui andiamo a dare ad i un valore
         che equivale a tutti i multipli (%) di 3
-        e questo valore verrà poi sovrascritto da Buzz */
+        e questo valore verrà poi sovrascritto da Fizz */
 
         else
         {console.log(i);}
 
         /* se tutte le condizioni sopra non vengono
-        rispettate, allora stampa semplicemente un valore
-        numerico incrementale */
-        
+        rispettate, allora stampa semplicemente il valore
+        numerico incrementale di i */
+
     }
