@@ -22,3 +22,15 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 
 ____________________________________________________________
 
+1) creare un ciclo for
+2) impostare un punto di partenza es: i=1
+3) impostare un limite quindi i<100
+4) impostare una crescita di i quindi i++
+
+MATEMATICAMENTE
+Fizz = 3
+Buzz = 5
+FizzBuzz = multipli di 3 e 5 (15, 30, 45, 60, 75, 90)
+
+5) creare una struttura 
+IF {3=FIZZ} ELSE {5=BUZZ} ELSE {FIZZBUZZ}
